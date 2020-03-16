@@ -6,7 +6,11 @@
   background-color:rgb(211, 8, 8);
 }
 .logo{
-    background-color: rgb(211, 8, 8) ;
+    background-color: rgb(211, 8, 8);
+    height: 110px;
+    max-width: 300px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
 }
 .button {
   background-color:rgb(7, 7, 7);
@@ -17,21 +21,22 @@
   text-decoration: none;
   display: inline-block;
   font-size: 2px;
-  margin: 4px 2px;
+  margin: 0;
   cursor: pointer;
 }
 .card {
   box-shadow: 0 8px 8px 10px rgba(87, 84, 84, 0.4);
   max-width: 250px;
-  padding: 10px;
   margin: auto;
   text-align: center;
   border-radius: 5%;
   background-color: whitesmoke;
+  padding-bottom:10px ;
 }
 img {
   width: 50%;
-  border: 4px 
+  border: 4px ;
+  margin: 0;
 }
 .designation {
   font-size: 15px;
